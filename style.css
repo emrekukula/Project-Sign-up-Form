@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.otf');
+}
+
+:root {
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(200, 195, 188)
+}
+
+h1 {
+    padding-top: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    max-width: 90%;
+}
+
+.hero-image {
+    background-image: url('fonts/image.webp');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 35%;
+    position: relative;
+    object-fit:fill;
+}
+
+.logo-bar {
+    background-image: initial;
+    margin-top: 30%;
+    font-size: 3rem;
+    color: white;
+    font-family: Norse;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.logo-bar img {
+    max-height: 100%;
+}
+
+.main {
+    height: 100%;
+    max-width: 65%;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+}
+
+.description {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 33%;
+    font-size: 1.25rem;
+    width: 90%;
+    color: rgb(200, 195, 188)
+
+}
+
+fieldset {
+    display: flex;
+    border: none;
+    gap: 3rem;
+    padding: 0.25rem;
+}
+
+/* div {
+    display: flex;
+} */
+
+.form-cell {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.form-container {
+    padding: 2rem 2rem;
+    /* height: 50%; */
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    background-color: rgb(24, 26, 27);;
+}
+
+.form-container p {
+    /* padding: 1rem; */
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+form label {
+    font-size: 0.75rem;
+    
+}
+
+form {
+    color: rgb(200, 195, 188);
+    display: flex;
+    flex-direction: column;
+}
+
+.button-area {
+    padding-left: 2rem;
+}
+
+html {
+    color-scheme: dark !important;
+}
+
+input {
+    line-height: 1.5rem;
+    border-radius: 4px;
+    /* outline-width: 0px; */
+    border: none;
+    width: 200px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(71, 87, 58);
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.btnLink {
+    text-decoration: none;
+    color: rgb(101, 133, 76);
+}
+
+.logo-bar {
+    background-color: rgba(17, 15, 15, 0.4);
+}
+
+a {
+    color: rgb(200, 195, 188);
+}
+
+.credit {
+    position: absolute;
+    top: 95%;
+    left: 25%;
+    font-size: .7rem;
+}
+
+.error, .confirmError {
+    color: red;
+    font-size: 1rem;
+    width: 200px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    /* border: 1px solid blue; */
+    box-shadow: 200px blue;
+}

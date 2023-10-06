@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="hero-image">
+            <div class="logo-bar">
+                <img src="fonts/odinlogo.png">
+                <h1>ODIN</h1>
+            </div>
+            <div class="credit">Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></div>
+        </div>
+        <div class="main">
+            <section class="description">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started.</p>
+                    <br>
+                <p>You <em>know</em> you want to.</p>
+            </section>
+            <form action="#" method="post">
+                <div class="form-container">
+                    <p>Let's do this!</p>
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="fname">FIRST NAME</label>
+                            <input id="fname" type="text" name="fname">
+                        </div>
+                        <div class="form-cell">
+                            <label for="lname">LAST NAME</label>
+                            <input id="lname" type="text" name="lname">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="email">EMAIL</label>
+                            <input id="email" type="email" name="email">
+                        </div>
+                        <div class="form-cell">
+                            <label for="number">PHONE NUMBER</label>
+                            <input id="number" type="tel" name="number">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="pwd">PASSWORD</label>
+                            <input id="pwd" type="password" name="pwd">
+                            <div class="error"></div>
+                        </div>
+                        <div class="form-cell">
+                            <label for="confirm_pwd">CONFIRM PASSWORD</label>
+                            <input id="confirm_pwd" type="password" name="confirm_pwd">
+                            <div class="confirmError"></div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="button-area">
+                    <button type="submit">Create Account</button>
+                    <div>Already have an account? <a class="btnLink" href="#">Log in</a></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
